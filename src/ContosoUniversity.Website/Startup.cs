@@ -29,6 +29,7 @@ namespace ContosoUniversity.Website
 
             // Uncomment the following line to add Web API services which makes it easier to port Web API 2 controllers.
             // You will also need to add the Microsoft.AspNet.Mvc.WebApiCompatShim package to the 'dependencies' section of project.json.
+            // TODO add page with detailed instructions for this
             // services.AddWebApiConventions();
 
             var configuration = Configuration.GetSection("AppSettings");
@@ -94,5 +95,7 @@ namespace ContosoUniversity.Website
 
         // Entry point for the application.
         public static void Main(string[] args) => WebApplication.Run<Startup>(args);
+
+      
     }
 }
